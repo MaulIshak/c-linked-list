@@ -23,11 +23,6 @@ int main() {
     current->next = NULL;
     head->next->next = current;
     
-    current = malloc(sizeof(Node));
-    current->data = 100;
-    current->next = NULL;
-    head->next->next->next = current;
-    
 
     printNodes(head);
     return 0;
