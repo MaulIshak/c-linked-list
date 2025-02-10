@@ -22,11 +22,6 @@ int main() {
     current->data = 70;
     current->next = NULL;
     head->next->next = current;
-    
-    current = malloc(sizeof(Node));
-    current->data = 69;
-    current->next = NULL;
-    head->next->next->next = current;
 
     printNodes(head);
 
