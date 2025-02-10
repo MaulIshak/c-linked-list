@@ -23,6 +23,7 @@ int main() {
     current->next = NULL;
     head->next->next = current;
     
+    // Second node
     current = malloc(sizeof(Node));
     current->data = 100;
     current->next = NULL;
